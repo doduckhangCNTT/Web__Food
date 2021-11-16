@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Food</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav__logo">
+          <a href="">Food.</a>
+        </div>
+
+        <div class="nav__container">
+          <a href="#home" class="nav__link nav__active">Home</a>
+          <a href="#dishes" class="nav__link">Dishes</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#menu" class="nav__link">Menu</a>
+          <a href="#review" class="nav__link">Review</a>
+          <a href="#order" class="nav__link">Order</a>
+          <i class="fas fa-times icon__close"></i>
+        </div>
+
+        <div class="nav__icon">
+          <i class="fas fa-search icon__search"></i>
+
+          <div class="icon__heart">
+            <i class="fas fa-heart"></i>
+          </div>
+
+          <div class="icon__cart">
+            <div class="quality__cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="number__cart">0</span>
+            </div>
+
+            <div class="show__mycart">
+              <!-- <div class="show__cart-info">
+                <div class="img__cart">
+                  <img
+                    src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="show__cart-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor
+                  sit amet, consectetur adip
+                </div>
+                <div class="price__sp"><span>đ</span> 100.000</div>
+              </div> -->
+              <!-- <div class="show__cart-info">
+                <div class="img__cart">
+                  <img
+                    src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                    alt=""
+                  />
+                </div>
+                <div class="show__cart-desc">
+                  Lorem ipsum dolor sit amet, consectetur adipLorem ipsum dolor
+                  sit amet, consectetur adip
+                </div>
+                <div class="price__sp"><span>đ</span> 100.000</div>
+              </div> -->
+
+              <a href="shopCart.html" class="pay__product">Pay price</a>
+              <div class="total">Tong: <span>0</span></div>
+            </div>
+          </div>
+
+          <i class="fas fa-bars icon__bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <form action="" class="search__form">
+      <div class="search__input">
+        <input type="text" placeholder="Search..." class="search__box" />
+        <label for="" class="fas fa-search"></label>
+      </div>
+    </form>
+
+    <div class="upBtn">
+      <a href="#home">
+        <i class="fas fa-arrow-up icon__arrow-up"></i>
+      </a>
+    </div>
+
+    <section id="home" class="home">
+      <div class="home__container swiper-container">
+        <div class="swiper-wrapper home__showImg">
+          <div class="home__info container swiper-slide">
+            <div class="home__description">
+              <span class="home__my-food">Our Special Dish</span>
+              <h1 class="home__name-food">Spicy Noodles</h1>
+              <p class="home__des-food">
+                how to make complete responsive food / restaurant website design
+                using html css and vanilla javascript.
+              </p>
+              <a href="" class="home__btn">Order Now</a>
+            </div>
+
+            <div class="home__img">
+              <img
+                src="./assets/css/img/kisspng-hamburger-shake-shack-new-york-city-cheeseburger-f-shack-burger-png-5a74922a422640.197265231517589034271.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="home__info container swiper-slide">
+            <div class="home__description">
+              <span class="home__my-food">Our Special Dish</span>
+              <h1 class="home__name-food">Spicy Noodles</h1>
+              <p class="home__des-food">
+                how to make complete responsive food / restaurant website design
+                using html css and vanilla javascript.
+              </p>
+              <a href="" class="home__btn">Order Now</a>
+            </div>
+
+            <div class="home__img">
+              <img
+                src="./assets/css/img/kisspng-hamburger-shake-shack-new-york-city-cheeseburger-f-shack-burger-png-5a74922a422640.197265231517589034271.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="home__info container swiper-slide">
+            <div class="home__description">
+              <span class="home__my-food">Our Special Dish</span>
+              <h1 class="home__name-food">Spicy Noodles</h1>
+              <p class="home__des-food">
+                how to make complete responsive food / restaurant website design
+                using html css and vanilla javascript.
+              </p>
+              <a href="" class="home__btn">Order Now</a>
+            </div>
+
+            <div class="home__img">
+              <img
+                src="./assets/css/img/kisspng-hamburger-shake-shack-new-york-city-cheeseburger-f-shack-burger-png-5a74922a422640.197265231517589034271.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- <div class="home__icon">
+                <i class="fas fa-chevron-left icon-left"></i>
+                <i class="fas fa-chevron-right icon-right"></i>
+            </div> -->
+      </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <div class="separa-container">
+        <div class="dishes__title sequarate__title">
+          <span class="title__small">Our Dishes</span>
+          <h1 class="title__main">Popular Dishes</h1>
+        </div>
+        <div class="dishes__container container">
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">ABC</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>20.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                  <!-- <button class="btn-primary">Add to Card</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">Tasty Food</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>19.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">Thit Bo</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>18.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">Tasty Food</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>$20.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">
+                Tasty FoodTasty FoodTasty Food
+              </h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>$20.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">Tasty Food</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>$20.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes__info">
+            <div class="dishes__img">
+              <img
+                src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                alt=""
+              />
+
+              <div class="dishes__img-icon">
+                <i class="fas fa-eye icon-eye"></i>
+                <i class="fas fa-heart icon-heart"></i>
+              </div>
+            </div>
+            <div class="dishes__content">
+              <h3 class="dishes__content-title">Tasty Food</h3>
+              <div class="dishes__content-buy">
+                <div class="dishes__content-icon">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="dishes__content-price">
+                  <span>$20.99</span>
+                  <a href="" class="btn-primary"> Add to Card </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__container separa-container">
+        <div class="about__title sequarate__title">
+          <span class="title__small">About Us</span>
+          <h1 class="title__main">WHY CHOOSE US</h1>
+        </div>
+
+        <div class="about__content container">
+          <div class="about__content-img">
+            <img
+              src="./assets/css/img/kisspng-indian-cuisine-biryani-buffet-take-out-kebab-biryani-5ac54ba3bd1394.2905528615228793957745.png"
+              alt=""
+            />
+          </div>
+
+          <div class="about__content-link">
+            <h3 class="about__content-title title__main">
+              Best Food In The Country
+            </h3>
+            <div class="about__description">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus officia ducimus in enim porro ad facere ut, doloremque
+                reprehenderit incidunt. Sapiente sint explicabo nesciunt quasi
+                vero quis excepturi? Amet, similique.
+              </p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+              <div class="about__info">
+                <a href="" class="about__info-icon">
+                  <i class="fas fa-truck"></i>
+                  Free Delivery
+                </a>
+                <a href="" class="about__info-icon">
+                  <i class="fas fa-truck"></i>
+                  Free Delivery
+                </a>
+                <a href="" class="about__info-icon">
+                  <i class="fas fa-truck"></i>
+                  Free Delivery
+                </a>
+              </div>
+
+              <a href="" class="btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="menu__title sequarate__title">
+        <span class="title__small">Our Menu</span>
+        <h1 class="title__main">TODAY's SPECIALITY</h1>
+
+        <form action="" class="search-form">
+          <input
+            type="text"
+            class="about__search"
+            placeholder="Search your Food..."
+          />
+          <i class="fas fa-search icon-search"></i>
+        </form>
+      </div>
+      <div class="menu__container container">
+        <div class="menu__content">
+          <div class="menu__img">
+            <img
+              src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+              alt=""
+            />
+            <div class="menu__img-icon">
+              <i class="fas fa-heart icon-heart"></i>
+            </div>
+          </div>
+          <div class="menu__content-info">
+            <div class="menu__content-buy">
+              <div class="menu__content-icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3 class="menu__content-title">Delicious Food</h3>
+              <p class="menu__content-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                qui odit molestiae, culpa pariatur quas,
+              </p>
+            </div>
+            <div class="menu__content-price">
+              <a href="" class="btn-primary"> Add to Card </a>
+              <span>20.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu__content">
+          <div class="menu__img">
+            <img
+              src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+              alt=""
+            />
+            <div class="menu__img-icon">
+              <i class="fas fa-heart icon-heart"></i>
+            </div>
+          </div>
+          <div class="menu__content-info">
+            <div class="menu__content-buy">
+              <div class="menu__content-icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3 class="menu__content-title">Delicious Food</h3>
+              <p class="menu__content-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                qui odit molestiae, culpa pariatur quas,
+              </p>
+            </div>
+            <div class="menu__content-price">
+              <a href="" class="btn-primary"> Add to Card </a>
+              <span>$20.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu__content">
+          <div class="menu__img">
+            <img
+              src="https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+              alt=""
+            />
+            <div class="menu__img-icon">
+              <i class="fas fa-heart icon-heart"></i>
+            </div>
+          </div>
+          <div class="menu__content-info">
+            <div class="menu__content-buy">
+              <div class="menu__content-icon">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3 class="menu__content-title">Delicious Food</h3>
+              <p class="menu__content-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                qui odit molestiae, culpa pariatur quas,
+              </p>
+            </div>
+            <div class="menu__content-price">
+              <a href="" class="btn-primary"> Add to Card </a>
+              <span>$20.99</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="review" class="review">
+      <div class="separa-container">
+        <div class="review__title sequarate__title">
+          <span class="title__small">Customer's Review</span>
+          <h1 class="title__main">WHAT THEY SAY</h1>
+        </div>
+
+        <div class="review__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+            <div class="review__content swiper-slide">
+              <div class="review__info">
+                <div class="review__avatar">
+                  <img
+                    src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+                    alt=""
+                  />
+                  <div class="review__info-name">
+                    <span> John Deo</span>
+                    <div class="review__info-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__icon">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+              <div class="review__description">
+                <p class="review__info-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere nam ipsa corporis dolore tempora assumenda itaque
+                  dolorum eum excepturi aperiam tempore, mollitia labore vel
+                  nemo corrupti reiciendis facilis aut esse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="order separa-container">
+      <div class="order__title sequarate__title">
+        <span class="title__small">Order Now</span>
+        <h1 class="title__main">Free and Fast</h1>
+      </div>
+      <!-- <div class="order__container container"> -->
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>Your name</span>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="input">
+            <span>Your number</span>
+            <input type="text" placeholder="Enter your number" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your order</span>
+            <input type="text" placeholder="Enter food name" />
+          </div>
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="text" placeholder="Extra with food" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>How much</span>
+            <input type="text" placeholder="How many orders" />
+          </div>
+          <div class="input">
+            <span>Date and Time</span>
+            <input type="datetime-local" placeholder="Extra with food" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your address</span>
+            <textarea
+              name=""
+              placeholder="Enter your address"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>Your Message</span>
+            <textarea
+              name=""
+              placeholder="Enter your message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <a href="" class="btn-primary">Learn More</a>
+      </form>
+
+      <!-- </div> -->
+    </section>
+
+    <section class="footer separa-container" id="footer">
+      <div class="footer__colum">
+        <h3>Location</h3>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="">VietNamese</a></li>
+          <li class="footer__item"><a href="">Japan</a></li>
+          <li class="footer__item"><a href="">USA</a></li>
+          <li class="footer__item"><a href="">france</a></li>
+          <li class="footer__item"><a href="">Russsia</a></li>
+        </ul>
+      </div>
+      <div class="footer__colum">
+        <h3>Location</h3>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="">VietNamese</a></li>
+          <li class="footer__item"><a href="">Japan</a></li>
+          <li class="footer__item"><a href="">USA</a></li>
+          <li class="footer__item"><a href="">france</a></li>
+          <li class="footer__item"><a href="">Russsia</a></li>
+        </ul>
+      </div>
+      <div class="footer__colum">
+        <h3>Location</h3>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="">VietNamese</a></li>
+          <li class="footer__item"><a href="">Japan</a></li>
+          <li class="footer__item"><a href="">USA</a></li>
+          <li class="footer__item"><a href="">france</a></li>
+          <li class="footer__item"><a href="">Russsia</a></li>
+        </ul>
+      </div>
+      <div class="footer__colum">
+        <h3>Location</h3>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="">VietNamese</a></li>
+          <li class="footer__item"><a href="">Japan</a></li>
+          <li class="footer__item"><a href="">USA</a></li>
+          <li class="footer__item"><a href="">france</a></li>
+          <li class="footer__item"><a href="">Russsia</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="loader-container">
+      <img src="./assets/css/img/Double Ring-1s-200px.gif" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
